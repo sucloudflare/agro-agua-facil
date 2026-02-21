@@ -170,8 +170,7 @@ bun dev
 </section>
 
 <footer>
-  <p><strong>Autor:</strong> Edson – Juazeiro-BA</p>
-  <p>E-mail / WhatsApp: (adicione aqui)</p>
+  <p><strong>Autor:</strong>  Bruno, Doris, Thais, Ray, Clarice e Gustavo </p>
   <p>
     Demo: 
     <a href="https://agrosmart-three.vercel.app" target="_blank">
