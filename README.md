@@ -11,14 +11,14 @@
 
     <p>O sistema monitora a umidade do solo em tempo real, integra dados climáticos (previsão de chuva, ETc), recomenda a quantidade ideal de água e envia alertas via aplicativo.</p>
 
-    <p><strong>Objetivos:</strong></p>
-    <ul>
-      <li>Reduzir desperdício de água em até 30%</li>
-      <li>Diminuir custos com energia</li>
-      <li>Aumentar produtividade entre 15–25%</li>
-      <li>Manter custo acessível para produtores familiares</li>
-    </ul>
-  </div>
+<p><strong>Objetivos:</strong></p>
+<ul>
+<li>Reduzir desperdício de água em até 30%</li>
+ <li>Diminuir custos com energia</li>
+ <li>Aumentar produtividade entre 15–25%</li>
+ <li>Manter custo acessível para produtores familiares</li>
+ </ul>
+ </div>
 </section>
 
 <section>
