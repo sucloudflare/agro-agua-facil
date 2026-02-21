@@ -44,13 +44,13 @@
     <div class="badge">PWA</div>
     <div class="badge">Deploy: Vercel</div>
 
-    <p style="margin-top:15px;">
+<p style="margin-top:15px;">
       Demo online:
-      <a href="https://agrosmart-three.vercel.app" target="_blank">
+<a href="https://agrosmart-three.vercel.app" target="_blank">
         https://agrosmart-three.vercel.app
-      </a>
-    </p>
-  </div>
+</a>
+</p>
+</div>
 </section>
 
 <section>
