@@ -8,7 +8,6 @@
   <h2>📌 Visão Geral</h2>
   <div class="card">
     <p><strong>Agro Água Fácil</strong> é o frontend do projeto <strong>AgroSmart</strong>, uma solução open-source de irrigação inteligente baseada em IoT e IA para pequenos e médios produtores de olericultura (tomate, alface, pimentão, cenoura etc.).</p>
-
 <p>O sistema monitora a umidade do solo em tempo real, integra dados climáticos (previsão de chuva, ETc), recomenda a quantidade ideal de água e envia alertas via aplicativo.</p>
 
 <p><strong>Objetivos:</strong></p>
