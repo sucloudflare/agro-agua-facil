@@ -1,73 +1,183 @@
-# Welcome to your Lovable project
+<h1>Agro Água Fácil 🌱💧</h1>
+  <p><strong>Sistema Inteligente de Irrigação para Pequenos Produtores de Hortaliças</strong></p>
+  <p><strong>AgroSmart</strong> – Tornando a irrigação precisa, acessível e sustentável</p>
+  <p>Status (Fevereiro 2026): Frontend inicial em desenvolvimento</p>
+</header>
 
-## Project info
+<section>
+  <h2>📌 Visão Geral</h2>
+  <div class="card">
+    <p><strong>Agro Água Fácil</strong> é o frontend do projeto <strong>AgroSmart</strong>, uma solução open-source de irrigação inteligente baseada em IoT e IA para pequenos e médios produtores de olericultura (tomate, alface, pimentão, cenoura etc.).</p>
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+    <p>O sistema monitora a umidade do solo em tempo real, integra dados climáticos (previsão de chuva, ETc), recomenda a quantidade ideal de água e envia alertas via aplicativo.</p>
 
-## How can I edit this code?
+    <p><strong>Objetivos:</strong></p>
+    <ul>
+      <li>Reduzir desperdício de água em até 30%</li>
+      <li>Diminuir custos com energia</li>
+      <li>Aumentar produtividade entre 15–25%</li>
+      <li>Manter custo acessível para produtores familiares</li>
+    </ul>
+  </div>
+</section>
 
-There are several ways of editing your application.
+<section>
+  <h2>🚀 Funcionalidades Planejadas</h2>
+  <div class="card">
+    <ul>
+      <li>Dashboard em tempo real (umidade, temperatura e status da irrigação)</li>
+      <li>Recomendações automáticas (balanço hídrico + previsão climática)</li>
+      <li>Alertas via Push / WhatsApp</li>
+      <li>Histórico e relatórios de economia</li>
+      <li>Suporte offline (PWA)</li>
+      <li>Integração futura com sensores IoT (Arduino / ESP32)</li>
+    </ul>
+  </div>
+</section>
 
-**Use Lovable**
+<section>
+  <h2>🛠 Tecnologias Utilizadas</h2>
+  <div class="card">
+    <div class="badge">React 18 + TypeScript</div>
+    <div class="badge">Vite ⚡</div>
+    <div class="badge">Tailwind CSS</div>
+    <div class="badge">shadcn/ui</div>
+    <div class="badge">PWA</div>
+    <div class="badge">Deploy: Vercel</div>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+    <p style="margin-top:15px;">
+      Demo online:
+      <a href="https://agrosmart-three.vercel.app" target="_blank">
+        https://agrosmart-three.vercel.app
+      </a>
+    </p>
+  </div>
+</section>
 
-Changes made via Lovable will be committed automatically to this repo.
+<section>
+  <h2>📅 Roadmap 2026</h2>
+  <div class="card">
+    <table>
+      <thead>
+        <tr>
+          <th>Fase</th>
+          <th>Descrição</th>
+          <th>Status</th>
+          <th>Prazo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Frontend básico</td>
+          <td>✅ Concluído</td>
+          <td>Fev/2026</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Integração API de clima</td>
+          <td>Em andamento</td>
+          <td>Mar/2026</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Backend + Banco</td>
+          <td>Planejado</td>
+          <td>Abr-Mai/2026</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Hardware IoT</td>
+          <td>Planejado</td>
+          <td>Mai-Jun/2026</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Algoritmo de recomendação</td>
+          <td>Planejado</td>
+          <td>Jul/2026</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>App Mobile</td>
+          <td>Planejado</td>
+          <td>Ago-Set/2026</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Testes em campo (Juazeiro-BA)</td>
+          <td>Planejado</td>
+          <td>Out/2026</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
 
-**Use your preferred IDE**
+<section>
+  <h2>💻 Como Rodar Localmente</h2>
+  <div class="card">
+    <p><strong>Pré-requisitos:</strong></p>
+    <ul>
+      <li>Node.js ≥ 18</li>
+      <li>npm ou bun</li>
+    </ul>
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+<pre><code># Clone o repositório
+git clone https://github.com/sucloudflare/agro-agua-facil.git
+cd agro-agua-facil
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Instale as dependências
+npm install
+# ou
+bun install
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Rode o projeto
 npm run dev
-```
+# ou
+bun dev
+</code></pre>
 
-**Edit a file directly in GitHub**
+    <p>Acesse: <code>http://localhost:5173</code></p>
+  </div>
+</section>
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+<section>
+  <h2>🤝 Contribuição</h2>
+  <div class="card">
+    <ol>
+      <li>Fork o repositório</li>
+      <li>Crie uma branch: <code>git checkout -b feature/nome-da-feature</code></li>
+      <li>Commit: <code>git commit -m 'feat: nova funcionalidade'</code></li>
+      <li>Push: <code>git push origin feature/nome-da-feature</code></li>
+      <li>Abra um Pull Request</li>
+    </ol>
 
-**Use GitHub Codespaces**
+    <p><strong>Áreas prioritárias:</strong></p>
+    <ul>
+      <li>UX mobile</li>
+      <li>Mock de dados climáticos</li>
+      <li>Wireframes finais</li>
+      <li>Documentação da API</li>
+    </ul>
+  </div>
+</section>
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+<section>
+  <h2>📄 Licença</h2>
+  <div class="card">
+    <p>MIT License – consulte o arquivo LICENSE para detalhes.</p>
+  </div>
+</section>
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+<footer>
+  <p><strong>Autor:</strong> Edson – Juazeiro-BA</p>
+  <p>E-mail / WhatsApp: (adicione aqui)</p>
+  <p>
+    Demo: 
+    <a href="https://agrosmart-three.vercel.app" target="_blank">
+      agrosmart-three.vercel.app
+    </a>
+  </p>
+  <p>🌱💧 AgroSmart 2026</p>
+</footer>
