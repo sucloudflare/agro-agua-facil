@@ -152,14 +152,14 @@ bun dev
       <li>Abra um Pull Request</li>
     </ol>
 
-    <p><strong>Áreas prioritárias:</strong></p>
-    <ul>
-      <li>UX mobile</li>
-      <li>Mock de dados climáticos</li>
-      <li>Wireframes finais</li>
-      <li>Documentação da API</li>
-    </ul>
-  </div>
+<p><strong>Áreas prioritárias:</strong></p>
+<ul>
+<li>UX mobile</li>
+<li>Mock de dados climáticos</li>
+<li>Wireframes finais</li>
+<li>Documentação da API</li>
+</ul>
+</div>
 </section>
 
 <section>
