@@ -137,8 +137,8 @@ npm run dev
 bun dev
 </code></pre>
 
-    <p>Acesse: <code>http://localhost:5173</code></p>
-  </div>
+<p>Acesse: <code>http://localhost:5173</code></p>
+</div>
 </section>
 
 <section>
